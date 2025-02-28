@@ -300,7 +300,22 @@ transition: .5s ease;
       min-height:20rem;
     }
 }
-
+/* DESTINATION*/
+/* TOP */
+.top{
+  background:var(--primary);
+  padding:5rem 0;
+}
+.top h2{
+  font-size:3rem;
+  color:var(--light);
+  font-weight: 600;
+}
+.top .wrapper{
+  margin-top:5rem;
+  display:grid;
+  grid-template-column:
+}
 /* REPEATABLE PATTERNS */
 :root{
   --primary:#004225;
@@ -324,3 +339,16 @@ transition: .5s ease;
   color: var(--primary);
   border: 1px solid var(--primary);
 }
+/* Container 2*/
+.top .container{
+  background: #004225;
+  width:100%;
+  margin:0 auto;
+  padding:1.5rem;
+  height:100rem;
+}
+
+
+
+
+
